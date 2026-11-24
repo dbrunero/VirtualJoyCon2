@@ -1,0 +1,11 @@
+# App compilata (si pubblica nelle release)
+*.app
+*.zip
+# File personali e log
+*.log
+WiiRemoteSwitch.md
+.DS_Store
+# Xcode
+xcuserdata/
+DerivedData/
+build/

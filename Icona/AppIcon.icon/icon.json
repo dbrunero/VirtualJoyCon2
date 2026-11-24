@@ -1,0 +1,131 @@
+{
+  "fill" : "automatic",
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "fill-specializations" : [
+            {
+              "value" : {
+                "linear-gradient" : [
+                  "srgb:1.00000,1.00000,1.00000,0.97000",
+                  "srgb:0.93000,0.95000,0.98000,0.92000"
+                ]
+              }
+            },
+            {
+              "appearance" : "tinted",
+              "value" : {
+                "solid" : "extended-gray:1.00000,1.00000"
+              }
+            }
+          ],
+          "glass" : true,
+          "image-name" : "dualsense.svg",
+          "name" : "dualsense"
+        },
+        {
+          "fill-specializations" : [
+            {
+              "value" : {
+                "linear-gradient" : [
+                  "srgb:1.00000,1.00000,1.00000,0.97000",
+                  "srgb:0.93000,0.95000,0.98000,0.92000"
+                ]
+              }
+            },
+            {
+              "appearance" : "tinted",
+              "value" : {
+                "solid" : "extended-gray:1.00000,1.00000"
+              }
+            }
+          ],
+          "glass" : true,
+          "image-name" : "wiimote.svg",
+          "name" : "wiimote"
+        }
+      ],
+      "lighting" : "individual",
+      "name" : "controller",
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.55
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.2
+      }
+    },
+    {
+      "layers" : [
+        {
+          "fill-specializations" : [
+            {
+              "value" : {
+                "linear-gradient" : [
+                  "srgb:1.00000,1.00000,1.00000,0.95000",
+                  "srgb:0.92000,0.94000,0.97000,0.90000"
+                ]
+              }
+            },
+            {
+              "appearance" : "tinted",
+              "value" : {
+                "solid" : "extended-gray:1.00000,1.00000"
+              }
+            }
+          ],
+          "glass" : true,
+          "image-name" : "apple.svg",
+          "name" : "apple"
+        }
+      ],
+      "lighting" : "individual",
+      "name" : "apple",
+      "position" : {
+        "scale" : 0.8,
+        "translation-in-points" : [
+          0,
+          -150
+        ]
+      },
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.3
+      }
+    },
+    {
+      "layers" : [
+        {
+          "glass" : false,
+          "image-name" : "split.svg",
+          "name" : "split"
+        }
+      ],
+      "lighting" : "combined",
+      "name" : "background",
+      "shadow" : {
+        "kind" : "none",
+        "opacity" : 0
+      },
+      "specular" : false,
+      "translucency" : {
+        "enabled" : false,
+        "value" : 0
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

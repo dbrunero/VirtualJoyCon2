@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key><string>it</string>
+    <key>CFBundleDisplayName</key><string>VJC Phone</string>
+    <key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+    <key>CFBundleName</key><string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>1.0</string>
+    <key>CFBundleVersion</key><string>1</string>
+    <key>LSRequiresIPhoneOS</key><true/>
+    <key>UILaunchScreen</key><dict/>
+    <key>UIRequiresFullScreen</key><true/>
+    <key>UIStatusBarHidden</key><true/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array><string>UIInterfaceOrientationPortrait</string><string>UIInterfaceOrientationLandscapeRight</string></array>
+    <key>UIApplicationSupportsIndirectInputEvents</key><true/>
+    <key>NSLocalNetworkUsageDescription</key><string>Serve per trovare VirtualJoyCon2 sul Mac e mandargli tasti e movimento.</string>
+    <key>NSBonjourServices</key>
+    <array><string>_vjc2phone._udp</string></array>
+    <key>NSCameraUsageDescription</key><string>iOS manda i tasti volume solo alle app che usano la fotocamera: resta accesa al minimo, senza riprendere niente, perché Volume + e − facciano da ZR/ZL e X.</string>
+    <key>NSMotionUsageDescription</key><string>Giroscopio e accelerometro fanno da sensori di movimento del Joy-Con.</string>
+</dict>
+</plist>
